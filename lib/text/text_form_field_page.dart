@@ -13,7 +13,7 @@ class TextFormFieldPage extends StatelessWidget {
         child: Form(
           child: TextFormField(
             decoration: InputDecoration(
-              labelText: "Hint text"
+              labelText: " 入力してください"
             ),
           ),
         ),

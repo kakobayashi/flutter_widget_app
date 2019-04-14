@@ -13,15 +13,15 @@ class ExpandedPage extends StatelessWidget {
         children: <Widget>[
           Expanded(
             flex: 3,
-            child: Container(color: Colors.pink,),
-          ),
-          Expanded(
-            flex: 1,
-            child: Container(color: Colors.grey,),
+            child: Container(color: Colors.red,),
           ),
           Expanded(
             flex: 2,
-            child: Container(color: Colors.amber,),
+            child: Container(color: Colors.blue,),
+          ),
+          Expanded(
+            flex: 1,
+            child: Container(color: Colors.yellow,),
           ),
         ],
       ),

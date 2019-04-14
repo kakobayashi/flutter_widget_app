@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Scaffold(
         appBar: AppBar(
-          title: Text("Widget"),
+          title: Text("Category"),
         ),
         body: ListView(
           children: <Widget>[
